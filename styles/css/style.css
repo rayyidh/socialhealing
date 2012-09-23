@@ -1,0 +1,103 @@
+.widget p {
+    margin: 15px 0;
+}
+#sidebar .widget-wrap {
+    margin: 0 0 0;
+}
+#sidebar .widget-content {
+    padding: 0;
+}
+#sidebar .widget {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+#sidebar .widget-title {
+    background: none repeat scroll 0 0 #FBFBFB;
+    border-bottom: 1px solid #ECEDE8;
+    border-top: 1px solid #ECEDE8;
+    clear: both;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+}
+#sidebar .widget ul {
+    padding: 0 15px;
+}
+#sidebar .widget ul li {
+    background: url("images/ico-bullet.gif") no-repeat scroll 0 12px transparent;
+    display: block;
+    padding: 7px 0 7px 11px;
+}
+#tab-sidebar {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #ECEDE8;
+    overflow: hidden;
+}
+.tab-widget-menu {
+    background: none repeat scroll 0 0 #FBFBFB;
+    border-bottom: 3px solid #326693;
+    font-size: 11px;
+    font-weight: bold;
+    height: 30px;
+    width: 290px;
+}
+.tab-widget-menu li {
+    background: url("images/bg-tab-sep.png") no-repeat scroll right 0 #FBFBFB;
+    border-bottom: 3px solid #326693;
+    color: #444444;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 66px;
+}
+.tab-widget-menu li.selected {
+    background: url("images/bg-tab-sep.png") no-repeat scroll right 0 #FFFFFF;
+    border-bottom: 3px solid #A3BB43;
+    bottom: 0;
+    height: 30px;
+    position: relative;
+}
+#tab-sidebar .widget {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    padding: 5px 0;
+}
+#tab-sidebar .widget > div {
+    border-top: 0 none;
+}
+#tab-sidebar .textwidget {
+    border-top: 0 none;
+}
+#tab-sidebar .widget ul li {
+    background: none repeat scroll 0 0 transparent;
+    padding: 10px 0 5px;
+}
+#tab-sidebar .widget ul li a {
+    background: none repeat scroll 0 0 transparent;
+}
+#tab-sidebar .info {
+    display: table;
+}
+#tab-sidebar a.comments-link, #tab-sidebar .meta {
+    color: #999999;
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+#tab-sidebar #recent-comments a {
+    color: #999999;
+}
+#tab-sidebar #recent-comments a:hover {
+    text-decoration: none;
+}
+#tab-sidebar #recent-comments a span.comment-author {
+    color: #333333;
+    font-weight: bold;
+}
+#tab-sidebar #recent-comments a:hover span.comment-author {
+    color: #326693;
+}

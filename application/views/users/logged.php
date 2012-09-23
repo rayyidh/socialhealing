@@ -1,0 +1,1 @@
+<li><a href="<?php echo base_url() ?>login/do_logout">Sign Out</a></li>

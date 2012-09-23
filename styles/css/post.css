@@ -1,0 +1,77 @@
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+div.post{
+	border: 1px solid #EEEEEE;
+    margin-bottom: 20px;
+    overflow: auto;
+    padding: 10px;
+}
+div.comment{
+	border: 1px solid #EEEEEE;
+    margin-bottom: 20px;
+    overflow: auto;
+    padding: 10px;
+}
+div.post .meta{
+	display:block;
+}
+div.post .left{
+	float:left;
+	width:30%%;
+}
+div.post .right{
+	float:right;
+	width:75%;
+}
+div.post .image{
+	
+}
+div.post .title{
+
+}
+
+div.post .date{
+	float:right; font-size:12px; margin:0 0 0 0;
+	width:199px;
+	text-align:right;
+	margin-top:0;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.commentor{
+	margin:4px;
+	padding:4px;
+	border: 1px solid #EEEEEE;
+    margin-bottom: 20px;
+    overflow: auto;
+    padding: 10px;
+}
