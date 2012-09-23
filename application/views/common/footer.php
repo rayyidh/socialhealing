@@ -1,7 +1,7 @@
 </div>
-<div class="row-fluid">
-    <div class="span12">
-     	<h3>Powered By CI@2012</h3>
+<div class="span4 offset1">
+    <div class="span4 offset2">
+         <h3>© Developed By SunSmart Solutions</h3>
     </div>
 </div> 
 </div>
